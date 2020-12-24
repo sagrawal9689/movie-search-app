@@ -7,7 +7,7 @@ const MovieList=(props)=>
         return (<>
                         <div className="movie-block">
                         <div className="left-block">
-                            <img alt="movie image" src={movie.i? movie.i.imageUrl: ""}/>
+                            <img alt="movie" src={movie.i? movie.i.imageUrl: ""}/>
                         </div>
                         <div className="right-block">
                             <div>NAME: {movie.l}</div>

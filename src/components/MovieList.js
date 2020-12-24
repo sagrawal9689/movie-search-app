@@ -1,14 +1,15 @@
 import React from 'react'
 
-class MovieList extends React.Component
+const MovieList=(props)=> 
 {
+    const movies= props.movies.map((movie)=>{
 
-    render()
-    {
-        return (
-            <div>Movie List</div>
-        )
-    }
+        return (<div>{movie.l}</div>)
+    })
+    return (
+        <div>{movies}</div>
+    )
+
 }
 
 export default MovieList

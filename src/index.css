@@ -47,3 +47,10 @@ body {
   text-align: center;
   margin: 1rem;
 }
+
+@media only screen and (min-width: 768px) {
+  
+  .App {
+  width: 80%;
+}
+}
